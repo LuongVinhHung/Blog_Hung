@@ -134,11 +134,13 @@
                         $main_image = $file_upload_main_img['name'];
                         move_uploaded_file($file_upload_main_img['tmp_name'], $target_file . $main_image);
                     
-                    } else {
+                    } 
+
+
+                }
+                   else {
                         $main_image = "";
                     }
-                }
-
                 
                 $file_upload_alt_img = $_FILES['alt_image'];
                 if (!empty($file_upload_alt_img['name'])){
@@ -149,10 +151,12 @@
                         $alt_image = $file_upload_alt_img['name'];
                         move_uploaded_file($file_upload_alt_img['tmp_name'], $target_file . $alt_image);
                     
-                    } else {
+                    } 
+                }    
+                else {
                         $alt_image = "";
                     }
-                }    
+                    
                 $opt = empty($_POST['opt_place']) ? 0 : $_POST['opt_place'];
 
                 $new_blogs->n_category_id = $_POST['select_category'];

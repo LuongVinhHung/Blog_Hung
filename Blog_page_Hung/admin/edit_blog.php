@@ -126,10 +126,10 @@
                                             <label>Alt Image</label>
                                             <input type="file" name="alt_image">
                                             <?php
-                                            if ($new_blog->v_main_image_url != "") {
+                                            if ($new_blog->v_alt_image_url != "") {
                                             ?>
                                                 <br>
-                                                <img src="images/upload/<?php echo $new_blog->v_main_image_url ?>" width="480px">
+                                                <img src="images/upload/<?php echo $new_blog->v_alt_image_url ?>" width="480px">
                                             <?php
                                             }
                                             ?>
