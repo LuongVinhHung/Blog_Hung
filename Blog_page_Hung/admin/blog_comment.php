@@ -121,7 +121,7 @@
                                                                         </div>
                                                                         <div class="modal-footer">
 
-                                                                            <input type="hidden" name="blog_id" value="<?php echo $row['n_sub_id'] ?>">
+                                                                            <input type="hidden" name="blog_id" value="<?php echo $row['n_blog_comment_id'] ?>">
                                                                             <input type="hidden" name="DeleteBlog" value="1">
                                                                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                                                             <button type="submit" class="btn btn-danger" onclick="">Delete</button>
