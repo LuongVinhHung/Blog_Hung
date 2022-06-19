@@ -1,5 +1,5 @@
 <?php
-include "check_login.php";
+//include "check_login.php";
 ?>
 <nav class="navbar navbar-default top-navbar" role="navigation">
     <div class="navbar-header">
