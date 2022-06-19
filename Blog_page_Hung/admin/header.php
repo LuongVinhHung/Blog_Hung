@@ -1,5 +1,5 @@
 <?php
-//include "check_login.php";
+include "check_login.php";
 ?>
 <nav class="navbar navbar-default top-navbar" role="navigation">
     <div class="navbar-header">
@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php">Administrator</a>
+        <a class="navbar-brand" href="index.php">Dream</a>
     </div>
 
     <ul class="nav navbar-top-links navbar-right">
