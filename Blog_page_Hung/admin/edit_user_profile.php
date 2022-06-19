@@ -31,7 +31,7 @@
 
         $database = new database();
         $db = $database->connect();
-        $new_user = new user($db);
+        $new_user = new users($db);
         $new_user->n_user_id = $_SESSION['user_id'];
 
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
