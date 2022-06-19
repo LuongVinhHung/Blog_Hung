@@ -41,7 +41,7 @@
 
             if (isset($_POST['DeleteBlog'])) {
 
-                $blogs_comment->n_blog_comment_id = $_POST['comment_id'];
+                $blogs_comment->n_blog_comment_id = $_POST['blog_id'];
 
                 if ($blogs_comment->delete()) {
                     $flag = "Delete blog successful !";
@@ -117,7 +117,7 @@
                                                                             <h4 class="modal-title" id="myModalLabel">Delete Contact</h4>
                                                                         </div>
                                                                         <div class="modal-body">
-                                                                            Are you sure that you want to delete this blogs subscribers ?
+                                                                            Are you sure that you want to delete this blogs comment ?
                                                                         </div>
                                                                         <div class="modal-footer">
 
